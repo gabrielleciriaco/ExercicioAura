@@ -1,0 +1,29 @@
+({
+    sum : function(component, event, helper) {
+        var Num1 = component.get("v.Num1");
+        var Num2 = component.get("v.Num2");
+        var Result = parseFloat(Num1) + parseFloat(Num2);
+        component.set("v.Result", Result);
+    },
+    
+    subtract : function(component, event, helper) {
+        var Num1 = component.get("v.Num1");
+        var Num2 = component.get("v.Num2");
+        var Result = parseFloat(Num1) - parseFloat(Num2);
+        component.set("v.Result", Result);
+    },
+    
+    multiply : function(component, event, helper) {
+        var Num1 = component.get("v.Num1");
+        var Num2 = component.get("v.Num2");
+        var Result = parseFloat(Num1) * parseFloat(Num2);
+        component.set("v.Result", Result);
+    },
+    
+    divide : function(component, event, helper) {
+        var Num1 = component.get("v.Num1");
+        var Num2 = component.get("v.Num2");
+        var Result = parseFloat(Num1) / parseFloat(Num2);
+        component.set("v.Result", Result);
+    }
+})
