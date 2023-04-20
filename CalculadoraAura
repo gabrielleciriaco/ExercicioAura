@@ -24,7 +24,6 @@
        <lightning:button variant="brand-outline" label="Subtrair" title="Subtrair" onclick="{! c.subtract}" />
        <lightning:button variant="brand-outline" label="Multiplicar" title="Multiplicar" onclick="{! c.multiply}" />
        <lightning:button variant="brand-outline" label="Dividir" title="Dividir" onclick="{! c.divide}"/>
-       <lightning:button variant="brand-outline" label="Dividir" title="Dividir" onclick="{! c.Limpar}"/>
        
     </div>
     </div>
