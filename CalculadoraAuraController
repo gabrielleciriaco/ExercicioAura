@@ -26,4 +26,15 @@
         var Result = parseFloat(Num1) / parseFloat(Num2);
         component.set("v.Result", Result);
     }
+    
+    limpar : function(component, event, helper) {
+        var Limpar = component.get("v.Limpar")
+        component.set("v.Result",0);
+        component.set("v.Num1",0);
+        component.set("v.Num2",0);
+        component.set("v.issum",false);
+        component.set("v.issubtract",false);
+        component.set("v.ismultiply",false);
+        component.set("v.isdivide",false);
+}
 })
